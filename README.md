@@ -10,7 +10,8 @@ A CRUD project with a simple user interface to manage a list of schools.
 2. Run the following command in the root directory of the project:
 
 ```bash
-docker-compose up
+docker build -t lzxky .
+docker run -p 5000:5000 lzxky
 ```
 
 3. Open your browser and go to [http://localhost:3000](http://localhost:3000)
@@ -21,6 +22,10 @@ docker-compose up
 2. Run the following command in the root directory of the project:
 
 ```bash
+cd project-lzxky
+npm install
+npm run build
+cd ../server
 npm install
 npm start
 ```
