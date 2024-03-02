@@ -14,7 +14,7 @@ docker build -t lzxky .
 docker run -p 5000:5000 lzxky
 ```
 
-3. Open your browser and go to [http://localhost:3000](http://localhost:3000)
+3. Open your browser and go to [http://localhost:5000](http://localhost:5000)
 
 ### Using Node.js
 
@@ -30,7 +30,7 @@ npm install
 npm start
 ```
 
-3. Open your browser and go to [http://localhost:3000](http://localhost:3000)
+3. Open your browser and go to [http://localhost:5000](http://localhost:5000)
 
 ## Built With
 
